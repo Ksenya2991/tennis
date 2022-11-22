@@ -4,6 +4,22 @@
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  width: 0;
+  height: 0.5208333333vw;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+  background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8D86C9;
+  border-radius: 0.5208333333vw;
+}
+
 a {
   text-decoration: none;
 }
@@ -213,6 +229,7 @@ header .social-media img {
   display: flex;
   overflow: scroll;
   gap: 1.5625vw;
+  padding: 0.5208333333vw;
 }
 .staff-section .staff-wrapper .staff-slider .staff-item {
   border: 0.0520833333vw solid #F7ECE1;

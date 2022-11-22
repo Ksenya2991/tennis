@@ -37,6 +37,22 @@ $tennisWidth: 526px;
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    width: 0;
+    height: toVw(10px);
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8D86C9;
+    border-radius: toVw(10px);
+}
+
 a{
     text-decoration: none;
 }
@@ -266,6 +282,7 @@ header{
             display: flex;
             overflow: scroll;
             gap: toVw(30px);
+            padding: toVw(10px);
             .staff-item{
                 border: toVw(1px) solid #F7ECE1;
                 padding-left: toVw(10px);
